@@ -1,0 +1,912 @@
+=================================================================
+MODEL:  5-0.4
+TIME:  3059.088133674988
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       955
+           1       0.86      0.78      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.90      0.87      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[924  31]
+ [ 53 184]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 64}
+
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94       955
+           1       0.73      0.85      0.79       237
+
+    accuracy                           0.91      1192
+   macro avg       0.85      0.89      0.87      1192
+weighted avg       0.92      0.91      0.91      1192
+
+[[882  73]
+ [ 35 202]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.35, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       955
+           1       0.86      0.74      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.90      0.86      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[926  29]
+ [ 61 176]]
+
+
+=================================================================
+MODEL:  5-0.6
+TIME:  3555.0491154089977
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 128}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       955
+           1       0.85      0.76      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.86      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[923  32]
+ [ 58 179]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 100}
+
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.96       955
+           1       0.81      0.84      0.83       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.90      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[908  47]
+ [ 37 200]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.35, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       955
+           1       0.87      0.75      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.91      0.86      0.88      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[929  26]
+ [ 59 178]]
+
+
+=================================================================
+MODEL:  5-0.8
+TIME:  4005.8288105309766
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.83      0.78      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.92      0.93      0.92      1192
+
+[[918  37]
+ [ 52 185]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 100}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.82      0.79      0.81       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.88      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[914  41]
+ [ 49 188]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.5, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       955
+           1       0.89      0.76      0.82       237
+
+    accuracy                           0.93      1192
+   macro avg       0.91      0.87      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[932  23]
+ [ 58 179]]
+
+
+=================================================================
+MODEL:  5-1.0
+TIME:  4380.679885712976
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 100}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.84      0.78      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.92      0.93      0.93      1192
+
+[[920  35]
+ [ 53 184]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.96       955
+           1       0.84      0.78      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.90      0.87      0.88      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[921  34]
+ [ 52 185]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.5, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       955
+           1       0.87      0.76      0.82       237
+
+    accuracy                           0.93      1192
+   macro avg       0.91      0.87      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[929  26]
+ [ 56 181]]
+
+
+=================================================================
+MODEL:  7-0.4
+TIME:  3046.924511614983
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       955
+           1       0.86      0.75      0.80       237
+
+    accuracy                           0.93      1192
+   macro avg       0.90      0.86      0.88      1192
+weighted avg       0.92      0.93      0.92      1192
+
+[[926  29]
+ [ 59 178]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 128}
+
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.95       955
+           1       0.74      0.86      0.80       237
+
+    accuracy                           0.91      1192
+   macro avg       0.85      0.89      0.87      1192
+weighted avg       0.92      0.91      0.92      1192
+
+[[885  70]
+ [ 33 204]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.35, 'loss': 'log_loss', 'max_depth': 5, 'n_estimators': 150, 'subsample': 1.0}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       955
+           1       0.87      0.75      0.80       237
+
+    accuracy                           0.93      1192
+   macro avg       0.90      0.86      0.88      1192
+weighted avg       0.93      0.93      0.92      1192
+
+[[928  27]
+ [ 60 177]]
+
+
+=================================================================
+MODEL:  7-0.6
+TIME:  3609.494724643999
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       955
+           1       0.84      0.75      0.79       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.86      0.87      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[922  33]
+ [ 59 178]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 64}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95       955
+           1       0.79      0.81      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.87      0.88      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[905  50]
+ [ 45 192]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.35, 'loss': 'log_loss', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       955
+           1       0.87      0.75      0.80       237
+
+    accuracy                           0.93      1192
+   macro avg       0.90      0.86      0.88      1192
+weighted avg       0.93      0.93      0.92      1192
+
+[[928  27]
+ [ 60 177]]
+
+
+=================================================================
+MODEL:  7-0.8
+TIME:  4014.2797666400147
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.83      0.78      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[918  37]
+ [ 53 184]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 100}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.83      0.79      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.88      0.88      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[916  39]
+ [ 49 188]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.5, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 1.0}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       955
+           1       0.89      0.76      0.82       237
+
+    accuracy                           0.93      1192
+   macro avg       0.91      0.87      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[932  23]
+ [ 58 179]]
+
+
+=================================================================
+MODEL:  7-1.0
+TIME:  4386.81017467301
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.96       955
+           1       0.84      0.78      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.90      0.87      0.88      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[921  34]
+ [ 52 185]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 128}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95       955
+           1       0.84      0.77      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[920  35]
+ [ 55 182]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.35, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.98      0.96       955
+           1       0.90      0.78      0.84       237
+
+    accuracy                           0.94      1192
+   macro avg       0.92      0.88      0.90      1192
+weighted avg       0.94      0.94      0.94      1192
+
+[[934  21]
+ [ 51 186]]
+
+
+=================================================================
+MODEL:  10-0.4
+TIME:  3064.244081600016
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       955
+           1       0.86      0.75      0.80       237
+
+    accuracy                           0.93      1192
+   macro avg       0.90      0.86      0.88      1192
+weighted avg       0.92      0.93      0.92      1192
+
+[[927  28]
+ [ 60 177]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 64}
+
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.93      0.94       955
+           1       0.75      0.83      0.79       237
+
+    accuracy                           0.91      1192
+   macro avg       0.85      0.88      0.87      1192
+weighted avg       0.92      0.91      0.91      1192
+
+[[890  65]
+ [ 40 197]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.2, 'loss': 'log_loss', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       955
+           1       0.88      0.74      0.80       237
+
+    accuracy                           0.93      1192
+   macro avg       0.91      0.86      0.88      1192
+weighted avg       0.93      0.93      0.92      1192
+
+[[930  25]
+ [ 62 175]]
+
+
+=================================================================
+MODEL:  10-0.6
+TIME:  3545.5923213700007
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 128}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       955
+           1       0.84      0.75      0.79       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.86      0.87      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[922  33]
+ [ 60 177]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95       955
+           1       0.79      0.83      0.81       237
+
+    accuracy                           0.92      1192
+   macro avg       0.88      0.89      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[904  51]
+ [ 41 196]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.5, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 1.0}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       955
+           1       0.89      0.75      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.91      0.86      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[932  23]
+ [ 59 178]]
+
+
+=================================================================
+MODEL:  10-0.8
+TIME:  4007.306980190013
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 128}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.84      0.78      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[920  35]
+ [ 52 185]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96       955
+           1       0.83      0.82      0.83       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.89      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[916  39]
+ [ 43 194]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.35, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 100, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       955
+           1       0.89      0.78      0.83       237
+
+    accuracy                           0.94      1192
+   macro avg       0.92      0.88      0.90      1192
+weighted avg       0.93      0.94      0.93      1192
+
+[[931  24]
+ [ 52 185]]
+
+
+=================================================================
+MODEL:  10-1.0
+TIME:  4369.529706125992
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 128}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.83      0.78      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.92      0.93      0.92      1192
+
+[[917  38]
+ [ 51 186]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.83      0.78      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[917  38]
+ [ 53 184]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.5, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       955
+           1       0.88      0.80      0.83       237
+
+    accuracy                           0.94      1192
+   macro avg       0.91      0.88      0.90      1192
+weighted avg       0.94      0.94      0.94      1192
+
+[[928  27]
+ [ 48 189]]
+
+
+=================================================================
+MODEL:  15-0.4
+TIME:  3081.6296876780107
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.95       955
+           1       0.85      0.74      0.79       237
+
+    accuracy                           0.92      1192
+   macro avg       0.90      0.86      0.87      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[925  30]
+ [ 61 176]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95       955
+           1       0.75      0.86      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.86      0.90      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[887  68]
+ [ 32 205]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.5, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96       955
+           1       0.90      0.76      0.82       237
+
+    accuracy                           0.93      1192
+   macro avg       0.92      0.87      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[934  21]
+ [ 57 180]]
+
+
+=================================================================
+MODEL:  15-0.6
+TIME:  3584.9919106980087
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95       955
+           1       0.84      0.76      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.86      0.87      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[921  34]
+ [ 58 179]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 128}
+
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.95       955
+           1       0.80      0.84      0.82       237
+
+    accuracy                           0.93      1192
+   macro avg       0.88      0.90      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[904  51]
+ [ 37 200]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.35, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 0.8}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       955
+           1       0.88      0.76      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.91      0.86      0.88      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[930  25]
+ [ 58 179]]
+
+
+=================================================================
+MODEL:  15-0.8
+TIME:  4012.8364732179907
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.84      0.78      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[921  34]
+ [ 53 184]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 100}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       955
+           1       0.83      0.80      0.81       237
+
+    accuracy                           0.93      1192
+   macro avg       0.89      0.88      0.88      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[915  40]
+ [ 47 190]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.35, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 1.0}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.97      0.96       955
+           1       0.88      0.76      0.82       237
+
+    accuracy                           0.93      1192
+   macro avg       0.91      0.87      0.89      1192
+weighted avg       0.93      0.93      0.93      1192
+
+[[931  24]
+ [ 56 181]]
+
+
+=================================================================
+MODEL:  15-1.0
+TIME:  4391.146637997008
+=================================================================
+MODEL:  RandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 100}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95       955
+           1       0.83      0.77      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.87      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[918  37]
+ [ 54 183]]
+
+
+=================================================================
+MODEL:  BalancedRandomForestClassifier(random_state=42069)
+Best params: {'bootstrap': False, 'max_depth': 50, 'n_estimators': 200}
+
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.96      0.95       955
+           1       0.83      0.77      0.80       237
+
+    accuracy                           0.92      1192
+   macro avg       0.89      0.86      0.88      1192
+weighted avg       0.92      0.92      0.92      1192
+
+[[918  37]
+ [ 55 182]]
+
+
+=================================================================
+MODEL:  GradientBoostingClassifier(random_state=42069)
+Best params: {'learning_rate': 0.5, 'loss': 'exponential', 'max_depth': 5, 'n_estimators': 150, 'subsample': 1.0}
+
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.97      0.96       955
+           1       0.88      0.80      0.84       237
+
+    accuracy                           0.94      1192
+   macro avg       0.91      0.89      0.90      1192
+weighted avg       0.94      0.94      0.94      1192
+
+[[929  26]
+ [ 48 189]]
+
+

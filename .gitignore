@@ -1,0 +1,5 @@
+*.log
+report/
+__pycache__/
+EDA.ipynb
+pickles/models_4th_models.pickle
